@@ -39,7 +39,7 @@ void ARaceBomb::Tick(float DeltaSeconds)
 
 	 	if(DetonationDelay <0.f)
 	 	{	 
-	 		DrawDebugSphere(GetWorld(), GetActorLocation(), DetonationRadius, 12, FColor::Red,false, 1);
+	 		DrawDebugSphere(GetWorld(), GetActorLocation(), DetonationRadius, 12, FColor::Red,true, 1);
 	 			 		
 	        if (ExplosionTargets.Num() > 0)
 	        {     

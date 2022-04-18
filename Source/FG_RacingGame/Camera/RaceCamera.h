@@ -25,7 +25,7 @@ public:
 	UPROPERTY(EditAnywhere, Category="Camera Follow|Advanced")
 	float FollowSpeed = 5.f;	
 	
-	UPROPERTY(EditAnywhere, Category="Camera Follow")
+	UPROPERTY(EditInstanceOnly, Category="Camera Follow")
 	AActor* FollowActor;
 	
 };
